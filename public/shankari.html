@@ -399,71 +399,91 @@ footer{background:var(--ivory);padding:4rem clamp(1rem,4vw,3rem) 2rem;border-top
 <!-- SERVICES -->
 <section class="services" id="services">
   <div class="sec-head reveal">
-    <div class="sec-eyebrow">— Services</div>
+    <div class="sec-eyebrow">— Treatments index</div>
     <h2 class="sec-title">Ten treatments. <span class="it">Four chairs of expertise.</span></h2>
   </div>
 
-  <div class="svc-group reveal">
-    <h3><small>01 — Pediatric</small>Gentle for first visits</h3>
-    <div class="svc-list">
-      <div class="svc" data-cursor="View"><div class="num">P/01</div><h4>Pit & fissure sealant therapy</h4><div class="arr"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="1.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div></div>
-      <div class="svc" data-cursor="View"><div class="num">P/02</div><h4>Teeth jewellery</h4><div class="arr"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="1.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div></div>
-      <div class="svc" data-cursor="View"><div class="num">P/03</div><h4>Oral lesion screening</h4><div class="arr"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="1.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div></div>
+  <div class="svc-shell reveal">
+    <div class="svc-cats" role="tablist">
+      <button class="svc-cat active" data-cat="ped" role="tab"><span class="ix">01</span><span class="nm">Pediatric</span><span class="ct">03</span></button>
+      <button class="svc-cat" data-cat="cos" role="tab"><span class="ix">02</span><span class="nm">Cosmetic</span><span class="ct">03</span></button>
+      <button class="svc-cat" data-cat="res" role="tab"><span class="ix">03</span><span class="nm">Restorative</span><span class="ct">03</span></button>
+      <button class="svc-cat" data-cat="sur" role="tab"><span class="ix">04</span><span class="nm">Surgical</span><span class="ct">01</span></button>
     </div>
-  </div>
 
-  <div class="svc-group reveal">
-    <h3><small>02 — Cosmetic & Aesthetic</small>Precise for your smile</h3>
-    <div class="svc-list">
-      <div class="svc" data-cursor="View"><div class="num">C/01</div><h4>Laser depigmentation</h4><div class="arr"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="1.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div></div>
-      <div class="svc" data-cursor="View"><div class="num">C/02</div><h4>Invisalign & teeth straightening</h4><div class="arr"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="1.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div></div>
-      <div class="svc" data-cursor="View"><div class="num">C/03</div><h4>Orthodontic treatment</h4><div class="arr"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="1.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div></div>
-    </div>
-  </div>
+    <div class="svc-panel">
+      <div class="svc-stage">
+        <div class="svc-pane active" data-pane="ped">
+          <div class="lead">
+            <div class="tagline">Gentle enough that the first visit doesn't become the last.</div>
+            <div class="glyph">ಮಗು</div>
+          </div>
+          <div class="svc-row"><span class="rn">P / 01</span><span class="rt">Pit & fissure sealant therapy</span><span class="rgo"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div>
+          <div class="svc-row"><span class="rn">P / 02</span><span class="rt">Teeth jewellery</span><span class="rgo"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div>
+          <div class="svc-row"><span class="rn">P / 03</span><span class="rt">Oral lesion screening</span><span class="rgo"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div>
+        </div>
 
-  <div class="svc-group reveal">
-    <h3><small>03 — Restorative</small>Built to last</h3>
-    <div class="svc-list">
-      <div class="svc" data-cursor="View"><div class="num">R/01</div><h4>Crowns & bridges</h4><div class="arr"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="1.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div></div>
-      <div class="svc" data-cursor="View"><div class="num">R/02</div><h4>Acrylic partial dentures</h4><div class="arr"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="1.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div></div>
-      <div class="svc" data-cursor="View"><div class="num">R/03</div><h4>Dental implants</h4><div class="arr"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="1.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div></div>
-    </div>
-  </div>
+        <div class="svc-pane" data-pane="cos">
+          <div class="lead">
+            <div class="tagline">Precise work, quietly done, on the smile you actually live with.</div>
+            <div class="glyph">ನಗು</div>
+          </div>
+          <div class="svc-row"><span class="rn">C / 01</span><span class="rt">Laser depigmentation</span><span class="rgo"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div>
+          <div class="svc-row"><span class="rn">C / 02</span><span class="rt">Invisalign & teeth straightening</span><span class="rgo"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div>
+          <div class="svc-row"><span class="rn">C / 03</span><span class="rt">Orthodontic treatment</span><span class="rgo"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div>
+        </div>
 
-  <div class="svc-group reveal">
-    <h3><small>04 — Surgical</small>When it can't wait</h3>
-    <div class="svc-list">
-      <div class="svc" data-cursor="View"><div class="num">S/01</div><h4>Wisdom tooth extraction</h4><div class="arr"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="1.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div></div>
+        <div class="svc-pane" data-pane="res">
+          <div class="lead">
+            <div class="tagline">Built to last — explained before, costed before.</div>
+            <div class="glyph">ಬಾಳಿಕೆ</div>
+          </div>
+          <div class="svc-row"><span class="rn">R / 01</span><span class="rt">Crowns & bridges</span><span class="rgo"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div>
+          <div class="svc-row"><span class="rn">R / 02</span><span class="rt">Acrylic partial dentures</span><span class="rgo"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div>
+          <div class="svc-row"><span class="rn">R / 03</span><span class="rt">Dental implants</span><span class="rgo"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div>
+        </div>
+
+        <div class="svc-pane" data-pane="sur">
+          <div class="lead">
+            <div class="tagline">When it can't wait — handled the same afternoon, often.</div>
+            <div class="glyph">ತಕ್ಷಣ</div>
+          </div>
+          <div class="svc-row"><span class="rn">S / 01</span><span class="rt">Wisdom tooth extraction</span><span class="rgo"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div>
+        </div>
+      </div>
     </div>
   </div>
 </section>
 
-<!-- SIGNATURE: Two kinds of patients -->
+<!-- SIGNATURE: full-bleed diptych -->
 <section class="signature" id="story" style="padding:0">
-  <!-- 300vh of scroll to drive 3 phases -->
-  <div style="height:300vh;position:relative">
+  <div style="height:280vh;position:relative">
     <div class="sig-pin" id="sigPin" data-phase="0">
-      <div class="sig-eyebrow">— Our quiet specialty</div>
+      <div class="sig-eyebrow">Our quiet specialty</div>
 
-      <div class="sig-stage">
-        <div class="sig-side left">
+      <div class="sig-half left">
+        <span class="bg-glyph">ಮಗು</span>
+        <div class="content">
           <div class="tag">ಮಗುವಿಗೆ — for the child</div>
           <h3>The first visit a <span class="it">child remembers fondly.</span></h3>
-          <p>Dr. Jayakumar's MDS is in Pedodontics — pediatric dentistry. That means a clinic built around the small things: a slower introduction to the chair, names for every instrument, parents in the room.</p>
+          <p>Dr. Jayakumar's MDS is in Pedodontics — pediatric dentistry. A slower introduction to the chair, names for every instrument, parents in the room. Most kids leave asking when they come back.</p>
         </div>
+      </div>
 
-        <div class="sig-center" aria-hidden="true">
-          <svg viewBox="0 0 200 200">
-            <circle cx="70" cy="100" r="55" fill="none" stroke="#C8553D" stroke-width="1.5" opacity=".8"/>
-            <circle cx="130" cy="100" r="55" fill="none" stroke="#0F4C4A" stroke-width="1.5" opacity=".8"/>
-          </svg>
-          <div class="merge-text">One clinic.<br>Both, completely.</div>
-        </div>
-
-        <div class="sig-side right">
+      <div class="sig-half right">
+        <span class="bg-glyph">ನಗು</span>
+        <div class="content">
           <div class="tag">ನಗುವಿಗೆ — for the smile</div>
           <h3>The smile makeover an <span class="it">adult finally books.</span></h3>
-          <p>Three decades of cosmetic & restorative work — Invisalign, laser depigmentation, implants, crowns. A patient described their gap-closure here as affordable, clearly explained, and the best in Rajajinagar.</p>
+          <p>Three decades of cosmetic & restorative work — Invisalign, laser depigmentation, implants, crowns. Affordable, clearly explained, and described by one patient as the best in Rajajinagar.</p>
+        </div>
+      </div>
+
+      <div class="sig-seam">
+        <div class="inner">
+          <div class="kn">ಒಂದು</div>
+          <div class="label">One clinic · for both</div>
+          <h4>Not two practices sharing a roof. <span class="it">One dentist, fluent in both rooms.</span></h4>
         </div>
       </div>
 
