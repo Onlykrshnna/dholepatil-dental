@@ -2,7 +2,7 @@ import { r as __toESM } from "../_runtime.mjs";
 import { n as require_jsx_runtime, r as require_react, t as QueryClientProvider } from "../_libs/react+tanstack__react-query.mjs";
 import { M as useRouter, c as HeadContent, d as Outlet, f as lazyRouteComponent, h as Link, m as createRootRouteWithContext, p as createFileRoute, s as Scripts, u as createRouter } from "../_libs/@tanstack/react-router+[...].mjs";
 import { t as QueryClient } from "../_libs/tanstack__query-core.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/router-BhwL1YND.js
+//#region node_modules/.nitro/vite/services/ssr/assets/router-BmqPDLU9.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 var styles_default = "/assets/styles-pif7Du9d.css";
@@ -147,21 +147,21 @@ function RootComponent() {
 		children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Outlet, {})
 	});
 }
-var $$splitComponentImporter = () => import("./routes-BRP6scam.mjs");
+var $$splitComponentImporter = () => import("./routes-Btph_Yt3.mjs");
 var rootRouteChildren = { IndexRoute: createFileRoute("/")({
 	head: () => ({ meta: [
-		{ title: "Amaya Dental Clinic — Best Dental Clinic in Sahakar Nagar, Bengaluru" },
+		{ title: "Dholepatil Dental Clinic — Best Dental Clinic in Sangamvadi, Pune" },
 		{
 			name: "description",
-			content: "Expert dental care in Sahakar Nagar, Bengaluru. 5.0★ from 144 patients. Invisalign, implants, veneers, teeth whitening, and preventive care."
+			content: "Expert dental care in Sangamvadi, Pune. 4.9★ from 69 patients. Invisalign, implants, veneers, teeth whitening, and preventive care."
 		},
 		{
 			property: "og:title",
-			content: "Amaya Dental Clinic — Sahakar Nagar, Bengaluru"
+			content: "Dholepatil Dental Clinic — Sangamvadi, Pune"
 		},
 		{
 			property: "og:description",
-			content: "Healthy teeth and gums start with the right habits. Visit Amaya Dental for advanced, painless, and personalized dental treatments."
+			content: "Healthy teeth and gums start with the right habits. Visit Dholepatil Dental Clinic for advanced, painless, and personalized dental treatments."
 		}
 	] }),
 	component: lazyRouteComponent($$splitComponentImporter, "component")
